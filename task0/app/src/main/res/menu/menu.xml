@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btn_circle"
+        android:title="Круг"
+        />
+    <item
+        android:id="@+id/btn_ellipse"
+        android:title="Эллипс"
+        />
+    <item
+        android:id="@+id/btn_rect"
+        android:title="Прямоугольник"
+        />
+    <item
+        android:id="@+id/btn_roundedRect"
+        android:title="Скруглённый прямоугольник"
+        />
+    <item
+        android:id="@+id/btn_square"
+        android:title="Квадрат"
+        />
+
+</menu>
