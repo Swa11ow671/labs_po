@@ -1,23 +1,3 @@
-Главный класс находятся в lab5/app/src/main/java/com/example/lab5/
-
-Классы фигур + абстракция находятся в lab5/app/src/main/java/com/example/lab5/Shapes
-
-Интерфейс Copyable по реализация объекта clone находится в lab5/app/src/main/java/com/example/lab5/
-
-Макет интерфейса находится в lab5/app/src/main/res/layout/
-
-Макет меню находится в lab5/app/src/main/res/menu/
-
-Ниже предоставлен скриншот кода по обработке собития нажатия на экран. Координаты [x, y] заносятся в массив pos, который уже передаётся в другие объекты.
-
-![image](https://user-images.githubusercontent.com/75545890/142759668-9d3bffb3-abbe-46b7-bac7-d8e725ad57a0.png)
-
-Т.к. в классах фигур отсутсвуют конструкторы, то наглядность паттерна "прототип" маловидна. Но суть работы данного паттерна лабораторная отражает.
-
-![image](https://user-images.githubusercontent.com/75545890/142762381-d6228c5d-bec5-47c4-8066-4c93499b6379.png)
-
-На 68 строке создаётся основной экземпляр класса, в который не происходит передача аргументов, т.к. он наследован от абстрактного класса Shape(за основу взята 3 лаборатная работа). На 69 строке вновь создаётся экземляр класса Circle, который равен первому экземпляру, но с вызванным методом .copy. На 70 строке происходит отрисовка фигуры путём задействия скопированного объекта.
-
-
-https://user-images.githubusercontent.com/75545890/142762660-734fc2ed-194a-47c9-b34e-21f92ff3b884.mp4
-
+![image](https://user-images.githubusercontent.com/95719347/162429428-702b768f-4b27-46b9-8fa8-13e94edacc22.png)
+![image](https://user-images.githubusercontent.com/95719347/162429457-4e091b96-f9a6-4476-a0de-eb13fffbf0bc.png)
+![image](https://user-images.githubusercontent.com/95719347/162429470-693f36f2-2965-4d5a-b503-b706be1d038e.png)
